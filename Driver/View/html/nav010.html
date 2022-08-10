@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style media="screen">
+.list{
+list-style-type: none;
+margin: 50;
+padding: 50;
+overflow: hidden;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.nav a {
+float: left;
+display: block;
+font-size: 20px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 16px;
+}
+
+.nav a:hover {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.login-container a:hover, a:active {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.login-container a:link, a:visited {
+float: right;
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+font-size: 17px;
+border: none;
+cursor: pointer;
+text-decoration: none;
+border-radius: 16px;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+@media only screen and (max-width:800px) {
+/* For tablets: */
+
+.list {
+  width: 100%;
+  padding: 0;
+}
+}
+@media only screen and (max-width:300px) {
+/* For mobile phones: */
+.list {
+  width: 100%;
+}
+}
+.box{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+padding:15px;
+position: fixed;top: 0;
+width: 100%;
+overflow: hidden;
+}
+
+</style>
+</head>
+<body>
+  <div  class="box">
+  <ul class="list">
+    <li class="nav"><a href="/Project/Index.php">Vehicle Rental BD</a></li>
+    <li class="nav"><a href="/Project/Index.php">Home</a></li>
+  <li class="nav"><a href="../View/dvr_ride.php">Ride</a></li>
+  <li class="nav"><a href="../View/dvr_profile.php">profile</a></li>
+  <li style="float:right"  class="nav"><a href="../Controller/logout.php">log Out</a></li>
+
+  </div>
+
+</body>
+</html>

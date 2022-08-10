@@ -1,0 +1,32 @@
+
+.right{
+  float: right;
+  margin-right: 50px;
+}
+.vertical-menu {
+    width: 200px;
+    height: 420px;
+
+  }
+  
+  .vertical-menu a {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }
+  
+  .vertical-menu a.active {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }

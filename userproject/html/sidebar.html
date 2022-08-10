@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+
+      .sidebar {
+        height: 59%;
+        width:15%;
+        position: fixed;
+        z-index: 1;
+        top: 110px;
+        left: 3%;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        color: white;
+        overflow-x: hidden;
+        padding-top: 16px;
+        
+      }
+      .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        color: white;
+        display: block;
+      }
+
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+      #tai{
+        padding: 10px;
+        float:auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="sidebar" style=" background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);color: white; box-shadow: 10px 10px 5px #aaaaaa;">
+
+
+    <a href="./user_profile.php"><i class="fas fa-address-book-o"> </i> View profile</a>
+        <a href="./Homepage.php"><i class="fa fa-fw fa-wrench"></i> Booking</a>
+    <a href="./changepw.php"><i class="fa fa-fw fa-wrench"></i> Change Pasword</a>
+    <a href="./changePic.php"><i class="fa fa-image"></i> Change Picture</a>
+    <a href="./payment.php"><i class="fa fa-money"></i> Payment</i></a>
+    <a href="./Index.php"><i class="fa fa-fa" style="font-size:24px"></i> Rating</i></a>
+  </div>
+  </body>
+</html>

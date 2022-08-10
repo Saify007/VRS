@@ -1,0 +1,36 @@
+
+.sidebar {
+  height: 59%;
+  width:15%;
+  position: fixed;
+  z-index: 1;
+  top: 110px;
+  left: 3%;
+  background-color: rgb(30, 0, 202);
+  overflow-x: hidden;
+  padding-top: 16px;
+  background: rgb(4, 36, 0);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background: rgb(46, 138, 38);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  display: block;
+}
+
+
+.sidebar a:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+#tai{
+  padding: 10px;
+  float:auto;
+}
